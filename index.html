@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Feane</title>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,500;1,300;1,400&family=Poppins:wght@400;500;600&family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,500&family=Ropa+Sans:ital@0;1&family=Rubik:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+</head>
+<body class="opan">
+  <div class="landing">
+    <div class="box-landing">
+      <img src="imga/landing.webp" alt="">
+    </div>
+  <header class="">
+    <div class="container">
+      <div class="nav_header">
+        <div class="nav_logo">
+          <a href="#">feane</a>
+        </div>
+        <button class="toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="nav_bar">
+          <div class="nav_list">
+            <a href="index.html" class="active">home</a>
+            <a href="menu.html">menu</a> 
+            <a href="about.html">about</a>
+            <a href="book.html">book tably</a>
+          </div>
+          <div class="tools">
+            <div class="icon_tools">
+              <i class="fa-solid fa-user"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="btn_tools">
+              <a href="#" class="btn">order online</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </header>
+  <section class="home " id="home">
+    <div class="container">
+      <div class="home_content ">
+            <h2>Fast Food Restaurant</h2>
+          <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+          <a href="#" class="btn ">order now</a>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- Start Offer -->
+<section class="offer">
+  <div class="container">
+    <div class="offer_cont">
+      <div class="box-offer">
+        <div class="imgs_offer">
+          <img src="imga/perger.webp" alt="">
+        </div>
+        <div class="text-offer">
+          <h5>Tasty Thursdays</h5>
+          <h6>
+            <span>20%</span>
+            off
+          </h6>
+          <a href="#" class="btn">order now
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+      </div>
+      <div class="box-offer">
+        <div class="imgs_offer">
+          <img src="imga/perger.webp" alt="">
+        </div>
+        <div class="text-offer">
+          <h5>Pizza Days</h5>
+          <h6>
+            <span>15%</span>
+            off
+          </h6>
+          <a href="#" class="btn">order now
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Offer -->
+<!-- Start Our Menu -->
+<section class="our_menu">
+  <div class="container">
+    <h2 class="title">our menu</h2>
+    <ul class="list_menu">
+      <li class="active" data-cont=".all" onclick="filterObject('all')">All</li>
+      <li data-cont=".burger" onclick="filterObject('burger')">Burger</li>
+      <li data-cont=".pizza" onclick="filterObject('pizza')">Pizza</li>
+      <li data-cont=".pasta" onclick="filterObject('pasta')" >Pasta</li>
+      <li data-cont=".fries" onclick="filterObject('fries')">Fries</li>
+    </ul>
+    <div class="menu_content">
+      <div class="menu_box all pizza">
+        <div class="img_box">
+          <img src="imga/pazzi_box.webp" alt="">
+        </div>
+        <div class="ditals_box">
+          <h4>Delicious Pizza</h4>
+          <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+          <div class="opsin">
+            <span>$20</span>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu_box all burger">
+        <div class="img_box">
+          <img src="imga/porger4.webp" alt="">
+        </div>
+        <div class="ditals_box">
+          <h4>Delicious Burger</h4>
+          <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+          <div class="opsin">
+            <span>$15</span>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu_box all pizza">
+        <div class="img_box">
+          <img src="imga/pazzi2-box.webp" alt="">
+        </div>
+        <div class="ditals_box">
+          <h4>Delicious Pizza</h4>
+          <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+          <div class="opsin">
+            <span>$17</span>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu_box all pasta">
+        <div class="img_box">
+          <img src="imga/basta.webp" alt="">
+        </div>
+        <div class="ditals_box">
+          <h4>Delicious Pasta</h4>
+          <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+          <div class="opsin">
+            <span>$18</span>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu_box all fries">
+        <div class="img_box">
+          <img src="imga/box3.webp" alt="">
+        </div>
+        <div class="ditals_box">
+          <h4>French Fries</h4>
+          <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+          <div class="opsin">
+            <span>$10</span>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu_box all pasta">
+        <div class="img_box">
+          <img src="imga/pasta2.webp" alt="">
+        </div>
+        <div class="ditals_box">
+          <h4>Delicious Pizza</h4>
+          <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+          <div class="opsin">
+            <span>$10</span>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu_box all pizza">
+        <div class="img_box">
+          <img src="imga/pazzi_box.webp" alt="">
+        </div>
+        <div class="ditals_box">
+          <h4>Delicious Pizza</h4>
+          <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+          <div class="opsin">
+            <span>$10</span>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu_box all burger">
+        <div class="img_box">
+          <img src="imga/porger2.webp" alt="">
+        </div>
+        <div class="ditals_box">
+          <h4>Delicious Pizza</h4>
+          <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+          <div class="opsin">
+            <span>$10</span>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu_box all burger">
+        <div class="img_box">
+          <img src="imga/porger3.webp" alt="">
+        </div>
+        <div class="ditals_box">
+          <h4>Delicious Pizza</h4>
+          <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+          <div class="opsin">
+            <span>$10</span>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu_btn">
+      <a href="#" class="btn">view more</a>
+    </div>
+  </div>
+</section>
+<!-- End Our Menu -->
+<!-- Start about -->
+<section class="about">
+  <div class="container">
+    <div class="about_box">
+      <div class="imgs_box">
+        <img src="imga/about1.png" alt="">
+      </div>
+      <div class="content_box">
+        <h2>We Are Feane</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End about -->
+<!-- Start Contact -->
+<section class="contact">
+  <div class="container">
+    <h2 class="title">Book A Table</h2>
+    <div class="contact-box">
+
+      <div class="inputs">
+        <form action="">
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="text" name="number" placeholder="phono Number">
+          <input type="email" name="email" placeholder="Your Email">
+          <input type="number"  placeholder="How Many Persons?">
+          <input type="date" name="date">
+        </form>
+        <div class="btn-contact">
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+      <div class="maps">
+        <iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280061705!2d-73.81487575836788!3d40.69763123314078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z2YbZitmI2YrZiNix2YPYjCDYp9mE2YjZhNin2YrYp9iqINin2YTZhdiq2K3Yr9ip!5e0!3m2!1sar!2seg!4v1689083141307!5m2!1sar!2seg"   style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact -->
+<!-- Start  Customers -->
+<section class="customers">
+  <div class="container">
+    <h2 class="title">What Says Our Customers</h2>
+    <div class="customers-box ">
+      <div class="customer ">
+        <div class="box">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum libero cum ullam rerum suscipit ipsam ad ducimus. Voluptates incidunt iusto sapiente praesentium! Praesentium doloremque quia neque autem rerum delectus excepturi.</p>
+
+          <h6>mike </h6>
+          <p>magen aliqua</p>
+        </div>
+        <div class="imgs">
+          <img src="imga/c523547d-a30b-43d6-b48d-6fef6ea16b60.webp" alt="">
+        </div>
+      </div>
+      <div class="customer">
+        <div class="box">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum libero cum ullam rerum suscipit ipsam ad ducimus. Voluptates incidunt iusto sapiente praesentium! Praesentium doloremque quia neque autem rerum delectus excepturi.</p>
+          <h6>mike </h6>
+          <p>magen aliqua</p>
+        </div>
+        <div class="imgs">
+          <img src="imga/e39cc04a-0d55-4550-b3be-f556d0d6da00.webp" alt="">
+        </div>
+      </div>
+      
+    </div>
+    <div class="buton">
+      <button class="left ">
+        <i class="fa-solid fa-angle-left "></i>
+      </button>
+      <button class="right">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
+<!-- End  Customers -->
+<!-- Start Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-box">
+      <div class="box">
+        <h4>Contact Us</h4>
+        <span>
+          <i class="fa-solid fa-location-dot"></i>
+          location
+        </span>
+        <span>
+          <i class="fa-solid fa-phone"></i>
+          call +0123456789
+        </span>
+        <span>
+          <i class="fa-regular fa-envelope"></i>
+          dome@gmail.com
+        </span>
+      </div>
+      <div class="box">
+        <h4>feane</h4>
+        <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
+        <div class="socail">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="box">
+        <h4>Opening Hours</h4>
+        <p>Everyday</p>
+        <p>10.00 Am -10.00 Pm</p>
+      </div>
+    </div>
+    <p class="copy">&#169; 2023 By <span>Walid Fawzy</span></p>
+  </div>
+</footer>
+<!-- End Footer -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/master.js"></script>
+</body>
+</html>
